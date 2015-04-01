@@ -1,0 +1,14 @@
+﻿
+#left {
+    float:left;
+    max-width: 200px;
+    background: rgb(206, 232, 245);
+    height:200px;  
+  }
+    
+#right {
+    float:right;
+    max-width: 200px;
+    background:rgb(206, 232, 245);
+    height:200px;  
+  }

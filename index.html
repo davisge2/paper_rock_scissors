@@ -1,0 +1,78 @@
+﻿<!-- ------------------------------------------------
+Copyright © Microsoft Corporation. All rights reserved
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+------------------------------------------------ -->
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Rock, Paper, Scissors</title>
+    <meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link href="css/default.css" rel="stylesheet" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <center>
+       <h1 class="alert alert-info">You vs Computer</h1>
+       <h3 class="well">Choose wisely</h3><br />
+        <div class=menu>
+          <div id="left">
+            <img src="http://cdn.flaticon.com/png/256/10522.png" style="max-width:200px;" />
+              <div id="win" class="alert alert-info"  style="max-width:400px;">YOU</div>
+              <p id="winpost" class="well"  style="max-width:400px;">WINS: <span id="winpost1">0</span></p>
+              <p id="winstreak" class="well"  style="max-width:400px;">STREAK: <span id="winstreak1">0</span></p>
+               <p id="winlongest" class="well"  style="max-width:400px;">LONGEST STREAK: <span id="winlongest1">0</span></p>
+          </div>
+          <div id="right">
+            <img src="http://cdn.flaticon.com/png/256/49242.png" style="max-width:200px;" />
+               <div id="lose" class="alert alert-info"  style="max-width:400px;">COMPUTER</div>
+              <p id="losepost" class="well"  style="max-width:400px;">WINS: <span id="losepost1">0</span></p>
+              <p id="losestreak" class="well"  style="max-width:400px;">STREAK: <span id="losestreak1">0</span></p>
+               <p id="loselongest" class="well"  style="max-width:400px;">LONGEST STREAK: <span id="loselongest1">0</span></p>
+           
+          </div>
+            <button class="btn btn-lg btn-primary" type="button" onclick="myRockFunction()"><img src="http://cdn.flaticon.com/png/256/71424.png" style="max-width:25px;" />Rock</button>
+            <button class="btn btn-lg btn-primary" type="button" onclick="myPaperFunction()"><img src="http://cdn.flaticon.com/png/256/32329.png" style="max-width:25px;" />Paper</button>
+            <button class="btn btn-lg btn-primary" type="button" onclick="myScissorsFunction()"><img src="http://cdn.flaticon.com/png/256/17836.png" style="max-width:25px;" />Scissors</button>
+             <br /> <br />
+            <p id="demo" class="alert alert-info"  style="max-width:400px; font-size:16px; font-weight:bold;">YOU:</p>
+            <p id="result" class="well"  style="max-width:400px; font-size:16px; font-weight:bold;">COMPUTER:</p>
+        </div>
+            <div class="clearfix"></div>
+       <br />
+     
+       <br />
+       <img src="http://i212.photobucket.com/albums/cc76/PRUnderground/RockPaperScissors.jpg" />
+     </center>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="lib/default.js"></script>
+  
+</body>
+</html>
